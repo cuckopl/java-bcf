@@ -1,0 +1,69 @@
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "name": "p",
+  "price": {
+    "currency": "USD",
+    "amount": 12
+
+  }
+}
+###
+How cha
+###
+<> 2021-02-08T102539.400.json
+<> 2021-02-08T102523.x400.json
+<> 2021-02-08T102450.400.json
+<> 2021-02-08T102440.400.json
+<> 2021-02-08T102415.200.txt
+<> 2021-02-08T102244.200.txt
+<> 2021-02-08T100826.200.txt
+<> 2021-02-08T100740.200.txt
+<> 2021-02-08T100728.404.json
+
+###
+
+###
+###
+GET http://localhost:8080/hello
+
+<> 2021-02-01T212848.200.txt
+
+###
+GET http://localhost:8080/hello
+
+<> 2021-02-01T213438.200.txt
+
+###
+GET http://localhost:8080/hello?name=mokro
+
+<> 2021-02-01T215635.200.txt
+<> 2021-02-01T215622.404.json
+<> 2021-02-01T215600.404.json
+<> 2021-02-01T215501.404.json
+<> 2021-02-01T215336.200.txt
+
+###
+GET http://localhost:8080/product/12
+
+<> 2021-02-01T215805.200.txt
+
+###
+POST http://localhost:8080/product
+
+<> 2021-02-04T151928.404.json
+<> 2021-02-01T220139.404.json
+
+###
+GET http://localhost:8080/product/12
+
+<> 2021-02-08T093540.200.txt
+<> 2021-02-04T151941.200.txt
+
+###
+POST http://localhost:8080/product
+
+
+<> 2021-02-08T093705.400.json
+<> 2021-02-08T093622.400.json
