@@ -22,7 +22,7 @@ public class Money {
     @Setter
     @Positive
     @DecimalMin("5")
-    @NumberFormat(style= NumberFormat.Style.CURRENCY)
+    @NumberFormat(style = NumberFormat.Style.CURRENCY)
     @NotNull(message = "Please enter valid amount")
     public BigDecimal amount;
 }

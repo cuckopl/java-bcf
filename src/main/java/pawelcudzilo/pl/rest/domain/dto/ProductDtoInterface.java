@@ -1,14 +1,19 @@
 package pawelcudzilo.pl.rest.domain.dto;
 
-import lombok.Getter;
-import lombok.Setter;
 
+import pawelcudzilo.pl.rest.application.dto.Money;
 
 public interface ProductDtoInterface {
-//    public Integer id();
-//
-//    public String name();
-//
-//    public Float price();
-//
+
+     Integer getId();
+
+     String getName();
+
+     void setName(String name);
+
+     Money getPrice();
+
+     void setPrice(Money price);
+
+
 }

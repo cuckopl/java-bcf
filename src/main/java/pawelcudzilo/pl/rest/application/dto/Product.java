@@ -13,6 +13,8 @@ import javax.validation.constraints.Size;
 @Setter
 final public class Product implements ProductDtoInterface {
 
+    private Integer id;
+
     @NotBlank(message = "Name can't be blank")
     @Size(min = 3)
     private String name;
@@ -20,5 +22,8 @@ final public class Product implements ProductDtoInterface {
     @Valid
     private Money price;
 
-
+    @Override
+    public Integer getId() {
+        return this.id;
+    }
 }
