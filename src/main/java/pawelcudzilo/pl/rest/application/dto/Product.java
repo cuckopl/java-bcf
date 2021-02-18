@@ -2,7 +2,8 @@ package pawelcudzilo.pl.rest.application.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-import pawelcudzilo.pl.rest.domain.dto.ProductDtoInterface;
+import pawelcudzilo.pl.domain.comunication.dto.MoneyDtoInterface;
+import pawelcudzilo.pl.domain.comunication.dto.ProductDtoInterface;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
@@ -26,4 +27,10 @@ final public class Product implements ProductDtoInterface {
     public Integer getId() {
         return this.id;
     }
+
+    @Override
+    public void setPrice(MoneyDtoInterface price) {
+        
+    }
+
 }

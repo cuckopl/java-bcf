@@ -3,6 +3,7 @@ package pawelcudzilo.pl.rest.application.dto;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.format.annotation.NumberFormat;
+import pawelcudzilo.pl.domain.comunication.dto.MoneyDtoInterface;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotBlank;
@@ -10,7 +11,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import java.math.BigDecimal;
 
-public class Money {
+public class Money implements MoneyDtoInterface {
 
 
     @Getter

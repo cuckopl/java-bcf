@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import pawelcudzilo.pl.rest.RestApplication;
 import pawelcudzilo.pl.rest.application.dto.Money;
 import pawelcudzilo.pl.rest.application.dto.Product;
-import pawelcudzilo.pl.rest.domain.dto.ProductDtoInterface;
+import pawelcudzilo.pl.domain.comunication.dto.ProductDtoInterface;
 
 import static org.junit.Assert.*;
 

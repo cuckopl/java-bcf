@@ -2,10 +2,11 @@ package pawelcudzilo.pl.rest;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import pawelcudzilo.pl.rest.domain.service.ProductServiceInterface;
 
 @Configuration
+@ComponentScan(basePackages = "pawelcudzilo")
 public class Config {
 
     @Bean
