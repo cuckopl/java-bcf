@@ -28,9 +28,4 @@ final public class Product implements ProductDtoInterface {
         return this.id;
     }
 
-    @Override
-    public void setPrice(MoneyDtoInterface price) {
-        
-    }
-
 }
