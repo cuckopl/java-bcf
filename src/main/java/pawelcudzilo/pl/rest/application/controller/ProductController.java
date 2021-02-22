@@ -5,9 +5,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import pawelcudzilo.pl.domain.comunication.dto.ProductDtoInterface;
-import pawelcudzilo.pl.domain.core.exceptions.ProductResourceNotFoundException;
-import pawelcudzilo.pl.domain.comunication.service.ProductServiceInterface;
+import pawelcudzilo.pl.domain.comunication.product.dto.ProductDtoInterface;
+import pawelcudzilo.pl.domain.core.product.exceptions.ProductResourceNotFoundException;
+import pawelcudzilo.pl.domain.comunication.product.service.ProductServiceInterface;
 import pawelcudzilo.pl.rest.application.dto.Product;
 
 

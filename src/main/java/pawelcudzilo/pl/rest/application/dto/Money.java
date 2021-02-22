@@ -3,7 +3,7 @@ package pawelcudzilo.pl.rest.application.dto;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.format.annotation.NumberFormat;
-import pawelcudzilo.pl.domain.comunication.dto.MoneyDtoInterface;
+import pawelcudzilo.pl.domain.comunication.product.dto.MoneyDtoInterface;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotBlank;

@@ -2,8 +2,7 @@ package pawelcudzilo.pl.rest.application.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-import pawelcudzilo.pl.domain.comunication.dto.MoneyDtoInterface;
-import pawelcudzilo.pl.domain.comunication.dto.ProductDtoInterface;
+import pawelcudzilo.pl.domain.comunication.product.dto.ProductDtoInterface;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
