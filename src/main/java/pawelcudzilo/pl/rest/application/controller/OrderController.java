@@ -21,7 +21,6 @@ public class OrderController {
     private final OrderUrlProvider urlProvider;
 
     public OrderController(OrderServiceInterface orderService, OrderUrlProvider urlProvider) {
-
         this.orderService = orderService;
         this.urlProvider = urlProvider;
     }
@@ -30,7 +29,6 @@ public class OrderController {
     public ResponseEntity<OrderDtoInterface> get(@PathVariable Long id) {
         return new ResponseEntity<>(this.orderService.get(id), HttpStatus.OK);
     }
-
 
     @PostMapping("/")
     public ResponseEntity<OrderDtoInterface> store(@RequestBody @Validated Order order) throws URISyntaxException {

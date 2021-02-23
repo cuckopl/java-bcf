@@ -9,7 +9,7 @@ public class OrderUrlProvider {
 
     private final static String PRODUCT_URL_PATTERN = "%s/product/%d";
 
-    @Value("${main.url.provider.product}")
+//    @Value("${main.url.provider.product}")
     private final String uri;
 
     public OrderUrlProvider(String uri) {

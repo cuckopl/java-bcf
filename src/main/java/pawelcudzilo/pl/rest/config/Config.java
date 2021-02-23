@@ -8,7 +8,7 @@ import pawelcudzilo.pl.rest.application.url.provider.OrderUrlProvider;
 @ComponentScan(basePackages = "pawelcudzilo")
 @Import(pawelcudzilo.pl.domain.Configuration.class) //IMPORT MODULES !!
 @EnableConfigurationProperties
-@Profile("development")
+//@Profile("development")
 public class Config {
 
     @Bean
